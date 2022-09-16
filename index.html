@@ -1,0 +1,675 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.1">
+    
+    
+      
+        <title>Premium Content Telegram Bot</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.2e8b5541.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="." title="Premium Content Telegram Bot" class="md-header__button md-logo" aria-label="Premium Content Telegram Bot" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Premium Content Telegram Bot
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              О сервисе
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Premium Content Telegram Bot" class="md-nav__button md-logo" aria-label="Premium Content Telegram Bot" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Premium Content Telegram Bot
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          О сервисе
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        О сервисе
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание раздела">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание раздела
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Как это работает для администратора канала
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Как это работает для пользователя?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Начало работы
+  </a>
+  
+    <nav class="md-nav" aria-label="Начало работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    Настройки бота в Бот-Менеджере
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройки бота в Бот-Менеджере">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    Цены
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    Запуск бота
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    Добавление канала
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    О финансах и безопасности
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    Стоимость
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    Вопросы и ответы
+  </a>
+  
+    <nav class="md-nav" aria-label="Вопросы и ответы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    Как посмотреть статистику?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    Что происходит с пользователями, которые были добавлены в канал администратором?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    Что будет, если я не буду оплачивать использование бота?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    Хотите связаться с разработчиками или сообщить об ошибке?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    Хочу чтобы мой бот использовал другой язык
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bot-stopped-bot-started" class="md-nav__link">
+    Иногда я вижу сообщения Bot stopped и Bot started, что это такое?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    Скриншоты
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание раздела">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание раздела
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Как это работает для администратора канала
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Как это работает для пользователя?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Начало работы
+  </a>
+  
+    <nav class="md-nav" aria-label="Начало работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    Настройки бота в Бот-Менеджере
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройки бота в Бот-Менеджере">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    Цены
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    Запуск бота
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    Добавление канала
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    О финансах и безопасности
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    Стоимость
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    Вопросы и ответы
+  </a>
+  
+    <nav class="md-nav" aria-label="Вопросы и ответы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    Как посмотреть статистику?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    Что происходит с пользователями, которые были добавлены в канал администратором?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    Что будет, если я не буду оплачивать использование бота?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    Хотите связаться с разработчиками или сообщить об ошибке?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    Хочу чтобы мой бот использовал другой язык
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bot-stopped-bot-started" class="md-nav__link">
+    Иногда я вижу сообщения Bot stopped и Bot started, что это такое?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    Скриншоты
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1">О сервисе</h1>
+<p><a href="https://t.me/premiumcontentrobot"><strong>Premium Content Robot</strong></a> это telegram бот, который позволяет вам легко управлять подписками на приватный телеграм канал</p>
+<p><a class="md-button md-button--primary" href="https://t.me/premiumcontentrobot"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6l-126.3-52.5-40.1 74.5c-5.2 9.7-16.3 14.6-27 11.9S192 499 192 488v-96c0-5.3 1.8-10.5 5.1-14.7l165.3-212.6c2.5-7.1-6.5-14.3-13-8.4l-179 161.9-32 28.9c-9.2 8.3-22.3 10.6-33.8 5.8l-85-35.4C8.4 312.8.8 302.2.1 290s5.5-23.7 16.1-29.8l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg></span> Открыть бота в telegram</a></p>
+<h2 id="_2">Как это работает для администратора канала</h2>
+<p>Бот служит только для настойки и управления вашими собственными ботами. Будем условно называть его <em><strong>Бот-Менеджер</strong></em></p>
+<p>Для вашего приватного канала вы должны создать своего телеграм-бота (будем называть его <em><strong>Бот-Клиент</strong></em>) с помощью официального <a href="https://t.me/botfather">@botfather</a></p>
+<p>В вашем <em><strong>Бот-Клиенте</strong></em> вы настраиваете платежные системы, куда будете принимать оплату. </p>
+<blockquote>
+<p><strong>Пользователи будут платить напрямую вам через вашего Бот-Клиента!</strong></p>
+</blockquote>
+<p>Далее в <em><strong>Бот-Менеджере</strong></em> вы подключаете и настраиваете своего <em><strong>Бот-Клиента</strong></em>. Описание, варианты оплаты и другое. Подключение и настройка подробно описаны ниже.</p>
+<p>Вы даете пользователям ссылку на своего <em><strong>Бот-Клиента</strong></em>. </p>
+<p>...</p>
+<p>Profit!</p>
+<h2 id="_3">Как это работает для пользователя?</h2>
+<p>Он подключается к <em><strong>Бот-Клиенту</strong></em>, видит описание бота и варианты оплаты (<em>ниже можно посмотерть скриншоты</em>)</p>
+<p>Оплачивает по одному из тарифов, что вы настроили и получает инвайт-ссылку для подключения к вашему приватному каналу.</p>
+<p>Когда оплаченный период подходит к концу, пользователь получит в <em><strong>Бот-Клиенте</strong></em> уведомление об этом и сможет сделать новую оплату.</p>
+<p>Если оплаченный период закончился, пользователь автоматически будет удален из канала.</p>
+<h2 id="_4">Начало работы</h2>
+<p>Создайте свой приватный канал, если у вас его еще нет.</p>
+<p>Через <a href="https://t.me/botfather">@botfather</a> создайте своего бота (<em><strong>Бот-Клиент</strong></em>) и настройте в нем, все что посчитаете нужным: имя, описание, картинку и тд. Пользователи будут взаимодействовать именно с вашим ботом и будут все это видеть.</p>
+<blockquote>
+<p>Пока <strong>не добавляйте</strong> своего бота в канал. Мы сделаем это позже</p>
+</blockquote>
+<p>Там же, в <a href="https://t.me/botfather">@botfather</a> настройте для вашего <em><strong>Бот-Клиента</strong></em> прием платежей</p>
+<blockquote>
+<p>Не забывайте сохранять токены, которые вам выдаст @botfather - токен самого бота, и токен платежной системы. Они понадобятся позже</p>
+</blockquote>
+<p>Далее переходите в <em><strong>Бот-Менеджера</strong></em> и добавляете нового бота командой <code>/add</code></p>
+<p>Отправляете токен вашего <em><strong>Бот-Клиента</strong></em>, который вы получили ранее. Он нужен, чтобы система могла работать от имени вашего бота - выставлять счета, создавать инвайт-линки, удалять пользователей по окончании периода оплаты</p>
+<p>Если все прошло успешно и токен верный, можно перейти к настройке вашего подключенного бота</p>
+<h3 id="-">Настройки бота в <em><strong>Бот-Менеджере</strong></em></h3>
+<h4 id="_5">Описание</h4>
+<p>Это сообщение пользователи будут видеть при подключении к вашему <em><strong>Бот-Клиенту</strong></em>. Например, там можно описать к какому именно контенту получит доступ пользователь. Описать ценовую политику и другое.</p>
+<h4 id="_6">Цены</h4>
+<p>Вы должны настроить один или несколько тарифов, которые пользователь сможет выбрать при оплате</p>
+<p>Например, два тарифа для доступа на один или на три месяца (лет, недель, дней)</p>
+<blockquote>
+<p>При добалении цены вам понадобится токен платежной системы</p>
+</blockquote>
+<h4 id="_7">Запуск бота</h4>
+<p>После задани описания и цен вы должны запустить бота! Он будет находиться в статусе <code>WAIT CHANNEL</code> (Ожидание установки канала)</p>
+<h4 id="_8">Добавление канала</h4>
+<p>Теперь вы должны добавить своего <em><strong>Бот-Клиента</strong></em> в ваш приватный канал.</p>
+<p>Вы должны добавить его как адмнистратора. При добавлении вам будет предложено указать, что именно разрешено боту. Вы должны выбрать один пункт - <em><strong>Добавление подписчиков</strong></em></p>
+<p>Это позволяет боту создавать инвайт-ссылки и удалять пользователей из канала.</p>
+<p>После добавления бот пришлет вам сообщение, в котором вы должны будете подтвердить добавление.</p>
+<p>После этого бот полностью готов к работе!</p>
+<h2 id="_9">О финансах и безопасности</h2>
+<p>При добавлении цен вам понадобится указать токен платежной системы. Этот токен позволяет выставлять счета для зачисления средств на ваш счет. Он не позволяет выводить средства или каким-либо еще образом взаимодействовать с вашим счетом.</p>
+<p>Подробнее об этом можете прочитать в документации <a href="https://core.telegram.org/bots/payments">Telegram</a></p>
+<h2 id="_10">Стоимость</h2>
+<blockquote>
+<p>Процесс оплаты комиссии находится в разработке. В данный момент использование бота <strong>бесплатно</strong></p>
+</blockquote>
+<p>В начале месяца в <em><strong>Бот-Менеджер</strong></em> будет приходить счет за предыдущий месяц</p>
+<p>Коммиссия составляет <strong>5-10%</strong></p>
+<h2 id="_11">Вопросы и ответы</h2>
+<h3 id="_12">Как посмотреть статистику?</h3>
+<p>В <em><strong>Бот-Менеджере</strong></em> выведите список своих ботов командой <code>/bots</code> и выберите нужного бота. Там вы сможете изменить настройки бота или посмотреть статистику по пользователям и платежам</p>
+<h3 id="_13">Что происходит с пользователями, которые были добавлены в канал администратором?</h3>
+<p>Этих пользователей бот не будет и не может исключить из канала</p>
+<h3 id="_14">Что будет, если я не буду оплачивать использование бота?</h3>
+<p>Он перестанет работать, при подключении к <em><strong>Бот-Клиенту</strong></em> ничего не будет происходить</p>
+<h3 id="_15">Хотите связаться с разработчиками или сообщить об ошибке?</h3>
+<p>Откройте <em><strong>Бот-Менеджера</strong></em> и с помощью команды <code>/support</code> отправьте сообщение. Мы его сразу получим и ответим вам как можно быстрее</p>
+<h3 id="_16">Хочу чтобы мой бот использовал другой язык</h3>
+<p>Напишите в саппорт о том, какой язык вы хотели бы увидеть. По умолчанию бот устанавливает русский язык для России, Украины, Белоруссии и Казахстана и английский язык во всех других случаях. Страна пользователя определятся по тому, какой язык пользователя нам указал Telegram</p>
+<h3 id="bot-stopped-bot-started">Иногда я вижу сообщения <strong>Bot stopped</strong> и <strong>Bot started</strong>, что это такое?</h3>
+<p>Когда мы обновляем код сервиса, нам приходится его перезапускать. Это нормально. Будет плохо, если увидели <strong>Bot stopped</strong>, и после этого тишина. Напишите в этом случае нам в поддержку, пожалуйста</p>
+<p><a class="md-button md-button--primary" href="https://t.me/premiumcontentrobot"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6l-126.3-52.5-40.1 74.5c-5.2 9.7-16.3 14.6-27 11.9S192 499 192 488v-96c0-5.3 1.8-10.5 5.1-14.7l165.3-212.6c2.5-7.1-6.5-14.3-13-8.4l-179 161.9-32 28.9c-9.2 8.3-22.3 10.6-33.8 5.8l-85-35.4C8.4 312.8.8 302.2.1 290s5.5-23.7 16.1-29.8l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg></span> Перейти в бота</a></p>
+<h2 id="_17">Скриншоты</h2>
+<p>Как мог бы выглядеть процесс оплаты для пользователя, если бы вы показывали зверушек</p>
+<p><img align="left" alt="Demo2" src="/img_2.png" />
+<img align="left" alt="Demo3" src="/img_3.png" />
+<img align="left" alt="Demo4" src="/img_4.png" /></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u041f\u043e\u0438\u0441\u043a", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version.title": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d691e9de.min.js"></script>
+      
+    
+  </body>
+</html>
